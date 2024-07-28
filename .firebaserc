@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "resturant-app": "restaurant-orderui",
+    "default": "restaurant-orderui"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

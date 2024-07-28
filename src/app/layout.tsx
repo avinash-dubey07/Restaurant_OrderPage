@@ -1,11 +1,6 @@
-'use client'
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import HeaderTop from "./components/HeaderTop";
-import { persistor, store } from "./redux/store";
-import { PersistGate } from "redux-persist/integration/react";
-import { Provider } from "react-redux";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,11 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <HeaderTop />
-      </PersistGate>
-      </Provider>
+     {children}
         </body>
     </html>
   );
