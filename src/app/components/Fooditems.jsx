@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
 export const food = [
     {
-      "foodImage": "https://t4.ftcdn.net/jpg/04/72/01/73/360_F_472017339_VO3PLa3kCTiHkZuQeIROiq4lWRKzlsRW.jpg",
+      "foodImage": "/Images/Poha.jpg",
       "name": "Poha",
       "originalPrice": 100,
       "discountedPrice": 70,
@@ -11,7 +11,7 @@ export const food = [
       "category": "breakfast"
     },
     {
-      "foodImage": "https://img.freepik.com/premium-photo/idly-sambar-idli-with-sambhar-green-red-chutney-popular-south-indian-breakfast_999766-2544.jpg",
+      "foodImage": "/Images/Idli.jpg",
       "name": "Idli",
       "originalPrice": 110,
       "discountedPrice": 80,
@@ -20,7 +20,7 @@ export const food = [
       "category": "breakfast"
     },
     {
-      "foodImage": "https://st2.depositphotos.com/5653638/11509/i/450/depositphotos_115095932-stock-photo-traditional-indian-bread-aloo-paratha.jpg",
+  "foodImage": "/Images/Prantha.jpg",
       "name": "Aloo Paratha",
       "originalPrice": 140,
       "discountedPrice": 110,
@@ -29,7 +29,7 @@ export const food = [
       "category": "lunch"
     },
     {
-      "foodImage": "https://i.pinimg.com/736x/9d/0a/c7/9d0ac7c89e1393ffa570f57ead6ba083.jpg",
+      "foodImage": "/Images/Thali.jpg",
       "name": "Vegetarian Thali",
       "originalPrice": 150,
       "discountedPrice": 120,
@@ -38,7 +38,7 @@ export const food = [
       "category": "lunch"
     },
     {
-      "foodImage": "https://st5.depositphotos.com/5653638/62941/i/450/depositphotos_629410112-stock-photo-chole-bhature-north-indian-food.jpg",
+      "foodImage": "/Images/Bhathure.jpg",
       "name": "Chole Bhature",
       "originalPrice": 120,
       "discountedPrice": 90,
@@ -47,7 +47,7 @@ export const food = [
       "category": "lunch"
     },
     {
-      "foodImage": "https://static.vecteezy.com/system/resources/thumbnails/035/375/567/small_2x/ai-generated-dum-handi-chicken-biryani-is-prepared-in-an-earthen-or-clay-pot-called-haandi-popular-indian-non-vegetarian-food-photo.jpg",
+      "foodImage": "/Images/Biryani.jpg",
       "name": "Hyderabadi Biryani",
       "originalPrice": 180,
       "discountedPrice": 150,
@@ -56,7 +56,7 @@ export const food = [
       "category": "dinner"
     },
     {
-      "foodImage": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5.jpg",
+      "foodImage": "/Images/Paneer.jpg",
       "name": "Paneer Butter Masala",
       "originalPrice": 160,
       "discountedPrice": 120,
@@ -65,7 +65,7 @@ export const food = [
       "category": "dinner"
     },
     {
-      "foodImage": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9zYXxlbnwwfHwwfHx8MA%3D%3D",
+      "foodImage": "/Images/Dosa.jpg",
       "name": "Special Masala Dosa",
       "originalPrice": 120,
       "discountedPrice": 90,
@@ -74,7 +74,7 @@ export const food = [
       "category": "breakfast"
     },
     {
-      "foodImage": "https://media.istockphoto.com/id/1298568253/photo/rajma-red-bean-masala-red-bean-kidney-curry-with-rice-in-a-clay-bowl-on-a-concrete-table-with.jpg?s=612x612&w=0&k=20&c=uTZg2ZGwz5rDUIriwripbJ7iYkj6u_d64HFVQsKzQRE=",
+      "foodImage": "/Images/Rajma.jpg",
       "name": "Rajma Chawal",
       "originalPrice": 140,
       "discountedPrice": 110,
