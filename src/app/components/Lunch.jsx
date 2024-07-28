@@ -79,7 +79,7 @@ const Lunch = ({ items }) => {
               style={{ zIndex: 2 }}
               className="bg-green-600 p-1 w-[70px] h-6 font-bold border-none rounded text-white cursor-pointer -mt-3"
             >
-              {isAdded(item) ? "Added +" : "Add +"}
+              {isAdded(item) ? "Added" : "Add +"}
             </button>
           </div>
         </div>
