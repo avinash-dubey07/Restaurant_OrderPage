@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addToCartReducer, removeFromCartReducer } from "../redux/CartSlice";
+import { addToCartReducer } from "../redux/CartSlice";
 
 
 const Breakfast = ({ items }) => {

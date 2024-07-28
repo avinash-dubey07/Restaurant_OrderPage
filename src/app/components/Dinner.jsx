@@ -1,15 +1,22 @@
 "use client";
-import React from "react";
-import { food } from "./Fooditems";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCartReducer, removeFromCartReducer } from "../redux/CartSlice";
+import { addToCartReducer } from "../redux/CartSlice";
 
 const Dinner = ({ items }) => {
   const cartItems = useSelector((state) => state.cart.cartItems);
   const dispatch = useDispatch();
 
-  const addToCart = (item) => dispatch(addToCartReducer(item));
-  const removeFromCart = (item) => dispatch(removeFromCartReducer(item));
+  const [addedItems, setAddedItems] = useState({});
+
+  const addToCart = (item) => {
+    dispatch(addToCartReducer(item));
+    setAddedItems((prev) => ({...prev, [item.name]: true}))
+  };
+
+  const isAdded = (item) => {
+    return addedItems[item.name] || cartItems.some((cartItem) => cartItem.name === item.name);
+  };
 
   return (
     <div className="space-y-6">
@@ -70,7 +77,7 @@ const Dinner = ({ items }) => {
               style={{ zIndex: 2 }}
               className="bg-green-600 p-1 w-[70px] h-6 font-bold border-none rounded text-white cursor-pointer -mt-3"
             >
-              Add+
+              {isAdded(item) ? "Added +" : "Add +"}
             </button>
           </div>
         </div>
