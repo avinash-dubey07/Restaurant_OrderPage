@@ -13,7 +13,7 @@ const Summary = () => {
    const netPayable = subTotal + couponDiscountedAmount + gstCharges;
    
   return (
-    <div className=" shadow border bg-gray-100 w-[400px] h-[200px] font-medium rounded-lg p-3 ml-5 mt-4 mr-9">
+    <div className=" shadow border bg-gray-100 w-[400px] h-[200px] font-medium rounded-lg p-3 ml-7 mt-4 mr-9">
       <div className='ml-5'>
       <h4 className="font-medium">SUMMARY</h4>
       </div>

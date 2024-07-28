@@ -11,7 +11,7 @@ const Cart = () => {
   const removeFromCart = (item) => dispatch(removeFromCartReducer(item));
 
   return (
-    <div className="shadow border bg-gray-100 flex w-[400px] min-h-[500px] rounded-md p-3 ml-7 mt-10 mr-9">
+    <div className="shadow border bg-gray-100 flex w-[400px] min-h-[200px] rounded-md p-3 ml-7 mt-10 mr-9">
       <div className="p-2 justify-center items-center ml-0 mt-0">
         <h3 className="font-semibold text-xl">CART</h3>
         <div>

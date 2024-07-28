@@ -8,7 +8,7 @@ const RoomNumber = () => {
   const setOtherFields = (item) => dispatch(setOtherFieldsReducer(item));
 
   return (
-    <div className=" shadow border bg-gray-100 w-[400px] h-[120px] rounded-lg p-3 ml-5 mt-4 mr-9">
+    <div className=" shadow border bg-gray-100 w-[400px] h-[120px] rounded-lg p-3 ml-7 mt-4 mr-9">
       <div className="ml-5">
         <h4 className="font-medium">ROOM NUMBER</h4>
       </div>
