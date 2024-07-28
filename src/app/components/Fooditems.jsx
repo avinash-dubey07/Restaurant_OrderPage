@@ -20,7 +20,7 @@ export const food = [
       "category": "breakfast"
     },
     {
-      "foodImage": "https://thumbs.dreamstime.com/b/aloo-paratha-potato-spices-filled-indian-bread-58282591.jpg",
+      "foodImage": "https://st2.depositphotos.com/5653638/11509/i/450/depositphotos_115095932-stock-photo-traditional-indian-bread-aloo-paratha.jpg",
       "name": "Aloo Paratha",
       "originalPrice": 140,
       "discountedPrice": 110,
